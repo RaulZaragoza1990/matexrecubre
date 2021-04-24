@@ -1,0 +1,46 @@
+.topPageGraphics{
+  height: 230px;
+  background-image: url('../assets/OndasNavbar.svg');
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
+.nav-link {
+    color: #008996;
+    text-decoration: none;
+
+}
+
+.nav-link:hover{
+    color: #008996;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.logoHeading{
+    height: 100px;
+}
+
+#logoNavbar {
+     height: 35px;
+}
+
+a.navbar-toggler {
+    border: 0px;
+}
+
+.downArrow {
+    color: #F93549;
+}
