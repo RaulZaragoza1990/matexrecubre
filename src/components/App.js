@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <div>
+      <div clasName="scrollProve">
         Hola Mundo!
       </div>
     </div>
