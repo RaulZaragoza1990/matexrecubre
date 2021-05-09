@@ -1,0 +1,9 @@
+.topPageGraphics{
+    height: 230px;
+    background-image: url('../assets/OndasNavbar.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
