@@ -1,0 +1,42 @@
+.card{
+    margin: 15px 15px;
+    width: 250px;
+    background-color: #F93549;
+    border: 0px;
+    padding: 0px;
+}
+.card-body{
+    padding: 0px;
+    text-align: center;
+}
+.card-title{
+    background-color: #fff;
+    width: 100%;
+    padding: 0px 16px;
+    margin: 0px;
+    color: #1ECAD3;
+    font-weight: bold;
+}
+.card-text{
+    background-color: #fff;
+    width: 100%;
+    padding: 0px 16px;
+    margin: 0px;
+    color: #007078;
+    font-weight: lighter;
+}
+.cardFooter{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.btn{
+    color: white;
+}
+#cartInvoice{
+    color: #ffff;
+    display: flex;
+    align-content: center;
+}
