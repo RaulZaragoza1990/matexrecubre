@@ -1,11 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Header from './header';
 import Navbar from './navbar';
+import Clientes from './clientes';
+import Footer from './footer';
+import Promociones from './promociones';
+import PopularProduts from '../pages/popularProducts';
 import Login from '../pages/login';
 import Register from '../pages/register';
 import ProductsByBrand from '../pages/productsByBrand';
-import ProductsByType from '../pages/productsByType';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const App = () => {
@@ -14,14 +16,23 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Navbar />
-
-        <div className="container">
+        <div>
           <Switch>
-            <Route path="/prductsbybrand">
+            <Route path="/">
+              <Promociones />
+              <PopularProduts />
+              <Clientes/>
               <ProductsByBrand />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/register">
+              <Register />
             </Route>
           </Switch>
         </div>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
