@@ -1,9 +1,9 @@
 import React from 'react';
-import '../css/navbar.css';
+import '../css/footer.css';
 
-const navbar = () => {
+const footer = () => {
     return (
-        <div className="sticky-top">
+        <div>
             <nav className="navbar navbar-expand-lg" >
                 <div className="container-fluid">
                     <a className="navbar-brand navbar-toggler" href="/">
@@ -15,13 +15,13 @@ const navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" href="/">INICIO<span className="downArrow">&#9662;</span></a>
+                                <a className="nav-link active" href="/">VOLVER AL INICIO<span className="downArrow">&#9652;</span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">PORDUCTOS POPULARES<span className="downArrow">&#9662;</span></a>
+                                <a className="nav-link" href="/">CONTACTO<span className="downArrow">&#9652;</span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">TODOS LOS PRODUCTOS<span className="downArrow">&#9662;</span></a>
+                                <a className="nav-link" href="/">TEL 984 233 2253<span className="downArrow">&#9652;</span></a>
                             </li>
                         </ul>
                     </div>
@@ -31,4 +31,4 @@ const navbar = () => {
     );
   };
 
-  export default navbar;
+  export default footer;

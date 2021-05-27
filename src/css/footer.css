@@ -1,0 +1,31 @@
+.nav-link {
+    color: #008996;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #008996;
+}
+
+.logoHeading{
+    height: 100px;
+}
+
+#logoNavbar {
+     height: 35px;
+}
+
+.downArrow {
+    color: #F93549;
+}
+#navbarNavDropdown{
+    justify-content: center;
+}
+
+.dropdown-item{
+    color: #008996;
+    text-decoration: none;
+}
+.sticky-top{
+    background-color: white;
+}

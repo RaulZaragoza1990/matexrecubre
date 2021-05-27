@@ -10,10 +10,10 @@ function ProductsCards(props) {
                     <h5 className="card-title">{props.producto}</h5>
                     <p className="card-text">{props.descripcion}</p>
                     <div className="d-inline cardFooter">
-                        <a href="#" className="btn" id="conoceMas">Conoce +</a>
+                        <a href="/" className="btn" id="conoceMas">Conoce +</a>
                         <span>|</span>
-                        <a href="#" className="btn">
-                            <img src={process.env.PUBLIC_URL + '/images/cart.svg'} id="cartInvoice"></img>
+                        <a href="/" className="btn">
+                            <img src={process.env.PUBLIC_URL + '/images/cart.svg'} id="cartInvoice" alt="Carrito"></img>
                         </a>
                     </div>
                     
