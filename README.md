@@ -1,7 +1,8 @@
-Here you can find the Backend app for this project: https://github.com/RaulZaragoza1990/matexrecubre_backend
+#Here you can find the Backend app for this project: https://github.com/RaulZaragoza1990/matexrecubre_backend
 
 
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
