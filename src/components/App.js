@@ -19,10 +19,16 @@ const App = () => {
         <div>
           <Switch>
             <Route path="/">
-              <Promociones />
-              <PopularProduts />
+              <div id="inicio">
+                <Promociones/>
+              </div>
+              <div id="productosPopulares">
+                <PopularProduts/>
+              </div>
               <Clientes/>
-              <ProductsByBrand />
+              <div id="todosProductos">
+                <ProductsByBrand/>
+              </div>
             </Route>
             <Route path="/login">
               <Login />

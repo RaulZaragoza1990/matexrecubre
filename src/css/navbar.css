@@ -1,6 +1,12 @@
 .nav-link {
     color: #008996;
     text-decoration: none;
+    cursor: pointer;
+    padding: 8px 8px 0 8px;
+    margin-bottom: 8px;
+}
+.nav-item > .active {
+    border-bottom: 3px solid #008996;
 }
 
 .nav-link:hover{
@@ -18,14 +24,50 @@
 .downArrow {
     color: #F93549;
 }
-#navbarNavDropdown{
-    justify-content: center;
-}
-
 .dropdown-item{
     color: #008996;
     text-decoration: none;
 }
 .sticky-top{
     background-color: white;
+}
+.navbar-login{
+    border: 2px solid #008996;
+    padding: 0;
+    border-radius: 0 19px 19px 0;
+}
+.loginButtom {
+    text-decoration: none;
+    color: #008996;
+    padding: 0 10px;
+}
+.navbar-register{
+    border: 2px solid #008996;
+    padding: 0;
+    border-radius: 19px 0 0 19px;
+    background-color: #008996;
+}
+.registerButtom {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 10px;
+}
+.loginRegister{
+    display: flex;
+    flex-direction: row;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icon-search{
+    margin-right: 20px;
+}
+.nav-icon-login{
+    margin-left: 20px;
+}
+.icon-account{
+    color: #008996;
+    ;
 }

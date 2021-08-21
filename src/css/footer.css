@@ -1,9 +1,10 @@
-.nav-link {
+.nav-item {
     color: #008996;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.nav-link:hover{
+.nav-item:hover{
     color: #008996;
 }
 
