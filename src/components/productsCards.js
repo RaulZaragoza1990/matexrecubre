@@ -9,6 +9,7 @@ function ProductsCards(props) {
                 <div className="card-body">
                     <h5 className="card-title">{props.producto}</h5>
                     <p className="card-text">{props.descripcion}</p>
+                    <p className="card-price">{props.precio}</p>
                     <div className="d-inline cardFooter">
                         <a href="/" className="btn" id="conoceMas">Conoce +</a>
                         <span>|</span>

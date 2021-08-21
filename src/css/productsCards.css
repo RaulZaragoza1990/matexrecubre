@@ -25,6 +25,14 @@
     color: #007078;
     font-weight: lighter;
 }
+.card-price{
+    background-color: #fff;
+    width: 100%;
+    padding: 0px 16px;
+    margin: 0px;
+    color: #FCD672;
+    font-weight: bold;
+}
 .cardFooter{
     color: white;
     font-weight: bold;
