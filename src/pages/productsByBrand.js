@@ -1,30 +1,23 @@
 import React from 'react';
-import ProductsCards from '../components/productsCards'
-import '../css/productsByBrand.css'
+import ProductsCards from '../components/productsCards';
+import '../css/productsByBrand.css';
 
 class ProductsByBrand extends React.Component {
     state = {
       productos: [
         {
           imagen:
-          `${process.env.PUBLIC_URL}/images/Blender_Dye Over.png`,
-          precio: "$14,000 MXN",
-          producto: "Blender Dye Over",
-          descripcion: ""
-        },
-        {
-          imagen:
           `${process.env.PUBLIC_URL}/images/Blender_Hardener.png`,
-          precio: "$7,200 MXN",
-          producto: "Deccofloor FIxer",
-          descripcion: "Consola Nintendo Switch con capacidad de 32 GB"
+          precio: "$281.05 MXN",
+          producto: "Blender Hardener Bulto 20Kg",
+          descripcion: "Color endurecedor para concreto."
         },
         {
           imagen:
           `${process.env.PUBLIC_URL}/images/Blender_Natural Stain.png`,
-          precio: "$4,500 MXN",
-          producto: "Deccofloor Microtop +",
-          descripcion: "Consola Nintendo Switch Lite con capacidad de 32 GB"
+          precio: "$151.33 - $226.02 MXN",
+          producto: "Blender Natural Stain 3.8lts",
+          descripcion: "Oxidante para concreto varios colores."
         },
         {
           imagen:
