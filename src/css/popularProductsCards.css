@@ -1,24 +1,36 @@
 .pop-card{
-    margin: 15px 15px;
-    width: 250px;
     background-color: #FFB71B;
-    border: 0px;
-    padding: 0px;
+    margin: 15px;
+    padding: 0;
+    max-height: 300px;
+    max-width: 250px;
+    border-radius: 3px 3px 0 0;
 }
-.pop-cardFooter{
+.pop-body{
+    height: 250px;
+}
+
+.pop-image{
+    height: 250px;
+    margin: 0;
+
+}
+
+.pop-footer{
+    width: 250px;
+    height: 50px;
+    padding: 0;
     background-color: #002A3A;
-    color: white;
-    font-weight: bold;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
     border-radius: 0 0 3px 3px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
-.btn{
-    color: white;
-}
-#pop-cartInvoice{
-    color: #ffff;
+.pop-conocemas{
+    border: 0;
+    padding: 0;
     display: flex;
     align-content: center;
+    justify-content: center;
 }
